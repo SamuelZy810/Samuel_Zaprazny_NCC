@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://kit.fontawesome.com/f2578c6f56.js" crossorigin="anonymous"></script>
+		<title>Web/home</title>
+		<link rel="icon" href="incon-soup.png" type="image/png" sizes="32x32">
+	</head>
+
+	<body>
+
+		<div id="wrapper-alert">
+			<div class="transparent-background">
+				
+			</div>
+			<div class="aler-content">
+				<i class="fas fa-power-off" onclick="toggleAlertFunction()"></i>
+				<p>Administrátorské prihlásenie</p>
+				<form method="POST">
+					<input type="name" name="login" placeholder="Adminský login" class="txt-input">
+					<br>
+					<input type="password" name="password" placeholder="Tvoje Heslo" class="txt-input">
+					<br>
+					<input type="submit" class="button">
+				</form>
+			</div>
+		</div>
+
+		<div id="banner">
+			<h1>Web | Lorem Ipsum text</h1>
+		</div>
+
+		<nav>
+			<ul class="nav-ul">
+				<li class="nav-li"><a class="nav-a" id="nav-a" onclick="toggleFirstFunction()">Projekty</a></li>
+				<div id="dropdown-first">
+					<div id="triangle-first"></div>
+					<ul id="dropdown-content-first">
+						<a href="#" class="dropdown-links-first"><li id="nav-a">Odkaz #1</li></a>
+						<a href="#" class="dropdown-links-first"><li id="nav-a">Odkaz #2</li></a>
+						<a href="#" class="dropdown-links-first"><li id="nav-a">Odkaz #3</li></a>
+					</ul>
+				</div>
+				<li class="nav-li"><a class="nav-a" id="nav-b" onclick="toggleSecondFunction()">O čo ide</a></li>
+				<div id="dropdown-second">
+					<div id="triangle-second"></div>
+					<ul id="dropdown-content-second">
+						<a href="#" class="dropdown-links-second"><li id="nav-b">Odkaz #1</li></a>
+						<a href="#" class="dropdown-links-second"><li id="nav-b">Odkaz #2</li></a>
+						<a href="#" class="dropdown-links-second"><li id="nav-b">Odkaz #3</li></a>
+					</ul>
+				</div>
+				<li class="nav-li"><a class="nav-a"  href="#">Kontakty</a></li>
+			</ul>
+		</nav>
+
+		<section id="home-section">
+
+			<div class="main-grid-only-1">
+				<img src="20210503_193419.jpg" id="obrázok">
+				<div id="table">
+					<p><b>Admin:</b> Samuel Zápražný</p>
+					<p><b>email:</b> samuelzaprazny@gmail.com</p>
+					<p><b>mobil:</b> +421 902 487</p>
+				</div>
+			</div>
+			<div class="main-grid-only-2">
+				<h2>Príhovor:</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus, sapien eu convallis malesuada, orci libero tristique mauris, vitae ornare lacus dolor sit amet magna. Aliquam a erat malesuada, auctor dui nec, fringilla orci. Nunc et fermentum metus. Fusce vestibulum purus id orci volutpat, eu vulputate quam pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eu interdum eros, iaculis lobortis magna. Donec consequat viverra metus pulvinar gravida. Phasellus malesuada dolor vulputate massa porta suscipit. Maecenas et mattis augue. Vivamus vitae iaculis leo. Nam vel nisi ex. Mauris in tempus justo. Ut maximus purus et sem ultricies malesuada.
+				</p>
+			</div>
+			<div class="main-grid-only-3">
+
+				<h2>Krátko o texte #x:</h2>
+				<p>
+					<ul class="list">
+						<li>Text #1</li>
+						<li>Text #2</li>
+						<li>Text #3</li>
+						<li>Text #4</li>
+					</ul>
+				</p>
+				<b>Vnorený zoznam:</b>
+				<p>
+					<ul class="list">
+						<li>Text #1</li>
+						<ul class="list-in-list">
+							<li>Text #1-1</li>
+							<li>Text #1-2</li>
+						</ul>
+						<li>Text #2</li>
+						<ul class="list-in-list">
+							<li>Text #2-1</li>
+							<li>Text #2-2</li>
+						</ul>
+					</ul>
+				</p>
+				
+			</div>
+			<div class="main-grid-only-4">
+				<h2>Odkazy autora:</h2>
+				<br>
+				<div class="footer-icons">
+					<a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a>
+				</div>
+			</div>
+			
+		</section>
+
+		<footer>
+			<p>Samuel Zápražný &copy2021</p>
+			<a onclick="toggleAlertFunction()">Administrácia</a>
+		</footer>
+
+	</body>
+
+	<script type="text/javascript" src="main.js"></script>
+	
+</html>
